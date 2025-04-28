@@ -2,17 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hg58znznn85i/public_html/
-    - /bin/cp -R cssab $DEPLOYPATH
-    - /bin/cp -R imagesab $DEPLOYPATH
-    - /bin/cp -R jsab $DEPLOYPATH
-    - /bin/cp -R pages/aboutgrid $DEPLOYPATH
-    - /bin/cp -R pages/contact $DEPLOYPATH
-    - /bin/cp -R pages/contact/contactimg $DEPLOYPATH
-    - /bin/cp -R pages/contact/contactjs $DEPLOYPATH
-    - /bin/cp -R pages/contact/contactstyle $DEPLOYPATH
-    - /bin/cp -R pages/gallery $DEPLOYPATH
-    - /bin/cp -R pages/gallery/galleryimg $DEPLOYPATH
-    - /bin/cp -R pages/gallery/galleryjs $DEPLOYPATH
-    - /bin/cp -R pages/gallery/gallerystyle $DEPLOYPATH
-    - /bin/cp -R pages/peregrine $DEPLOYPATH
-    - /bin/cp -R pages/thanks $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    
