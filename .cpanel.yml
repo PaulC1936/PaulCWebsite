@@ -2,9 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hg58znznn85i/public_html/
-    - /bin/cp -R pages/aboutgrid $DEPLOYPATH
-    - /bin/cp -R pages/"Gallery Page"/Gallery2.html $DEPLOYPATH
-    - /bin/cp -R pages/peregrine/peregrine.html $DEPLOYPATH
-    - /bin/cp -R pages/"Contact Page" $DEPLOYPATH
-    - /bin/cp -R pages/thanks $DEPLOYPATH
-    
+    - /bin/cp -R pages $DEPLOYPATH
