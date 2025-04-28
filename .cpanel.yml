@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hg58znznn85i/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R --exclude=".git" --exclude=".env" * $DEPLOYPATH
