@@ -22,6 +22,21 @@
     z-index: 1000;
 
   }
+
+  .loadinggif {
+    display: none;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 55vw;
+    place-items: center;
+    max-width: 25vw;
+    mix-blend-mode:soft-light;
+  }
+
+.loadinggif img {
+    width: 100%;
+    height: 100%;
+}
 /* ////////////////  TOP BOX  /////////////////////////////////  */
 .topWrap {
   max-width: 100%;
@@ -665,6 +680,12 @@ margin-top: -99%;
     z-index: 1000;
 
   }
+
+  .loadinggif {
+    margin-left: 38vw;
+    margin-top: 20vw;
+  }
+
   .contactimg {
     display: block;
   }

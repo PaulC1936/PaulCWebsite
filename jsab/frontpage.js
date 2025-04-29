@@ -1,3 +1,13 @@
+document.documentElement.onload = function(){
+  document.getElementById("loader").style.display = "block";
+  document.body.style.backgroundColor = "black";
+};
+
+window.onload = function(){
+  document.getElementById("loader").style.display = "none";
+  document.body.style.backgroundColor = "none";
+};
+
 function playAudio(){
     let audio1 = document.getElementById("song");
     audio1.play();

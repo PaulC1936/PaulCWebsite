@@ -23,6 +23,21 @@
 
   }
 
+  .loadinggif {
+    display: none;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 55vw;
+    place-items: center;
+    max-width: 25vw;
+    mix-blend-mode:soft-light;
+  }
+
+.loadinggif img {
+    width: 100%;
+    height: 100%;
+}
+
 .topWrap {
   max-width: 100%;
   overflow-x: hidden;
@@ -550,6 +565,12 @@ margin-top: -89%;
     z-index: 1000;
 
   }
+
+  .loadinggif {
+    margin-left: 38vw;
+    margin-top: 20vw;
+  }
+
   .gallimg {
     display: block;
   }
