@@ -1,13 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
-ocument.documentElement.onload = function(){
-  document.getElementById("loader").style.display = "block";
-  document.body.style.backgroundColor = "black";
-};
-
 window.onload = function(){
   document.getElementById("loader").style.display = "none";
-  document.body.style.backgroundColor = "white";
 };
 
 //DISAPPEAR/REAPPEAR FUNCTIONS 

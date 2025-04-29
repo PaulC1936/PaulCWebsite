@@ -25,13 +25,14 @@ body {
 
   }
   .loadinggif {
-    display: none;
+    display: block;
     position: absolute;
     margin-left: 35vw;
     margin-top: 55vw;
     place-items: center;
     max-width: 25vw;
-    mix-blend-mode:soft-light;
+    mix-blend-mode: difference;
+    z-index: 3000;
   }
 
 .loadinggif img {

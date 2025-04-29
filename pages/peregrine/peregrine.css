@@ -18,6 +18,22 @@ body {
 
   }
 
+  .loadinggif {
+    display: block;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 55vw;
+    place-items: center;
+    max-width: 25vw;
+    mix-blend-mode: difference;
+    z-index: 3000;
+  }
+
+.loadinggif img {
+    width: 100%;
+    height: 100%;
+}
+
   .container{
     display: flex;
     flex-direction: column;
@@ -55,6 +71,12 @@ body {
         justify-content: center;
         gap: 10rem;
     }
+
+    .loadinggif {
+      margin-left: 38vw;
+      margin-top: 20vw;
+    }
+
     .mainpic{
         max-height:100vh;
         max-width: auto;

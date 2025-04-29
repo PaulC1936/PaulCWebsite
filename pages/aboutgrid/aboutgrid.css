@@ -18,6 +18,22 @@ body {
 
   }
 
+  .loadinggif {
+    display: block;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 55vw;
+    place-items: center;
+    max-width: 25vw;
+    mix-blend-mode: difference;
+    z-index: 3000;
+  }
+
+.loadinggif img {
+    width: 100%;
+    height: 100%;
+}
+
   .bannercontainer{
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
@@ -113,6 +129,12 @@ body {
       width: 6vw;
       height: auto;
       z-index: 1000;
+    }
+    
+      .loadinggif {
+        margin-left: 38vw;
+        margin-top: 20vw;
+      }
   
     }
     .bannercontainer{
@@ -148,4 +170,4 @@ body {
     }
 
 
-  }
+  
