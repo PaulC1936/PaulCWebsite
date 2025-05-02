@@ -41,7 +41,7 @@ body {
   height: 100vh;
   z-index: 2500;
   opacity: 1;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 6s ease-in-out;
 }
 
   .bannercontainer{

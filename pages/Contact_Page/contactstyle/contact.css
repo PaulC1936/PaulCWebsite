@@ -45,7 +45,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 2500;
-  opacity: 1;
+  opacity: 6s;
   transition: opacity 1s ease-in-out;
 }
 /* ////////////////  TOP BOX  /////////////////////////////////  */

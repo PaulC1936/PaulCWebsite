@@ -1,9 +1,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
 window.onload = function(){
-  document.getElementById("loader").style.display = "none";
-  whiteOut.style.opacity='0';
-}
+  document.getElementById("loadcontainer").style.display = "none";
+};
 
 //DISAPPEAR/REAPPEAR FUNCTIONS 
 function goGiffy() {
