@@ -1,6 +1,7 @@
 window.onload = function(){
-  document.getElementById("loadcontainer").style.display = "none";
-};
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("whiteOut").style.display = "none";
+}
 
 function playAudio(){
     let audio1 = document.getElementById("song");
