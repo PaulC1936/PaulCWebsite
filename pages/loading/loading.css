@@ -9,7 +9,7 @@ body{
     margin-top: 55vw;
     place-items: center;
     max-width: 25vw;
-    mix-blend-mode:soft-light;
+    mix-blend-mode: normal;
   }
 
 .loadinggif img {
