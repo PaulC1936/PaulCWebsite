@@ -6,7 +6,7 @@
   body {
     max-width: 100%;
     background-color: white;
-    background-image: url(../galleryimg/crinkled.jpg);
+    background-image: url(../galleryimg/crinkled.webp);
     background-size: contain;
     background-repeat: repeat-y; 
     background-blend-mode: luminosity;
@@ -460,7 +460,7 @@ margin-left: 5%;
 /* LAPTOP */
 @media screen and (min-width: 821px){
   body {
-    background-image: url(../galleryimg/crinkled2.jpg)
+    background-image: url(../galleryimg/crinkled2.webp)
 }
   .gallimg {
     display: block;
@@ -565,7 +565,7 @@ margin-top: -89%;
 /*LANDSCAPE*/
 @media (orientation: landscape)  {
   body {
-    background-image: url(../galleryimg/crinkled2.jpg)
+    background-image: url(../galleryimg/crinkled2.webp)
   }
   .gamehusk{
     position: fixed;

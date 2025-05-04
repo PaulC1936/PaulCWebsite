@@ -6,7 +6,7 @@
   body {
     max-width: 100%;
     background-color: white;
-    background-image: url(../contactimg/crinkled.jpg);
+    background-image: url(../contactimg/crinkled.webp);
     background-size: cover;
     background-repeat: repeat; 
     background-blend-mode: luminosity;
@@ -595,7 +595,7 @@ button {
 /* LAPTOP */
 @media screen and (width >= 821px){
   body {
-    background-image: url(../contactimg/crinkled2.jpg)
+    background-image: url(../contactimg/crinkled2.webp)
 }
   .contactimg {
     display: block;
