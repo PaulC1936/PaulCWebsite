@@ -85,7 +85,7 @@ body {
   }
   p{
     grid-column: 4/6;
-    grid-row: 1/4;
+    grid-row: 2/4;
     font-family: monospace;
     color: rgb(58, 58, 58);
     opacity: 80%;
@@ -97,30 +97,8 @@ body {
     animation-duration: 15s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
+    overflow-x: hidden;
 }
-
-@keyframes reveal {
-  0%{
-    opacity: 0%;
-    text-align: right;
-    text-shadow: 4px 81px 36px rgba(228,22,54,1);
-    color: rgba(228,22,54,1);
-    text-size-adjust: 20%;
-    background-image: url(city.png);
-  };
-  
-  100%{
-    opacity: 100%;
-    color: rgba(228,22,54,1);
-    background-image: url(city.png);
-    text-align: right;
-
-  }
-}
-  
- 
-  
-  
 
   @media screen and (width <700px){
   p{
@@ -146,7 +124,7 @@ body {
         margin-top: 20vw;
       }
   
-    }
+
     .bannercontainer{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -178,6 +156,6 @@ body {
         grid-row: 2/4 ;
         padding-top: 10%;
     }
-
+  }
 
   
