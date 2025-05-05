@@ -5,6 +5,14 @@ window.onload = function(){
   document.getElementById("whiteOut").style.display = "none";
 }
 
+document.body.classList.add('js-loading');
+
+window.addEventListener("load", showPage, false);
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
+
 //DISAPPEAR/REAPPEAR FUNCTIONS 
 function goGiffy() {
   giffy.style.display = 'block';

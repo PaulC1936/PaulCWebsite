@@ -101,24 +101,24 @@ function ungallery() {
 }
 
 function bluetouch(){
-  $(bluebutton).ctx.scale(-1,1);
-  bluebutton.addEventListener("touchstart", audio2.play());
+  (bluebutton).ctx.scale(-1,1);
+  /*bluebutton.addEventListener("touchstart", audio2.play());*/
 }
 
 function redtouch(){
-  $(redbutton).ctx.scale(1,-1);
+  (redbutton).ctx.scale(1,-1);
 }
 
 function throwtouch(){
-  $(throwSwitch).ctx.scale(1,-1);
+  (throwSwitch).ctx.scale(1,-1);
 }
 
 function ontouch(){
-  $(onbutton).ctx.scale(-1,1);
+  (onbutton).ctx.scale(-1,1);
 }
 
 function abouttouch(){
-  $(aboutButton).ctx.scale(-1,1);
+  (aboutButton).ctx.scale(-1,1);
 }
 /*function delay (URL) {
   setTimeout( function() { window.location = URL }, 500 );
