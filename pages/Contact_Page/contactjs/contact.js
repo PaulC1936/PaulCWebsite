@@ -87,6 +87,7 @@ var tl = gsap.timeline({scrollTrigger:{
 
 
 
+
 ///////////////////////////////////////THE FORM SLIDE/HAND DISAPPEAR
 
     /*gsap.from(".signupForm",{

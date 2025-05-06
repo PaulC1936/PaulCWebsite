@@ -345,6 +345,10 @@ select:-webkit-autofill:focus {
   -webkit-background-clip: text;
 }
 
+#checkbox{
+  z-index: 1000;
+}
+
 button {
 grid-column: 3/8;
 grid-row: 10/11;
