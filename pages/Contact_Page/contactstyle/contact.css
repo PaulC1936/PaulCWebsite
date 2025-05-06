@@ -354,6 +354,7 @@ grid-column: 3/8;
 grid-row: 10/11;
 background: none;
 border: none;
+z-index: 1000;
 }
 
 button img {
