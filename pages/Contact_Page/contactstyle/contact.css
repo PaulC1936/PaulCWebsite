@@ -33,7 +33,7 @@
     display: block;
     position: absolute;
     margin-left: 35vw;
-    margin-top: 55vw;
+    margin-top: 20%;
     place-items: center;
     max-width: 25vw;
     mix-blend-mode: normal;
@@ -385,10 +385,10 @@ button img {
   }
 
   .nameInput{
-    font-size: 200%;
+    font-size: 150%;
   }
   .emailInput{
-    font-size: 200%;
+    font-size: 150%;
   }
   }
   
@@ -399,7 +399,7 @@ and (height: 896px) {
 
   .nameInput{
     font-family: 'CustomFont';
-    font-size: 200%;
+    font-size: 150%;
     color: #42765c;
     border: none;
     background: none;
@@ -409,7 +409,7 @@ and (height: 896px) {
     
     .emailInput {
     font-family: 'CustomFont';
-    font-size: 200%;
+    font-size: 150%;
     color: #42765c;
     border: none;
     background: none;
@@ -420,7 +420,7 @@ and (height: 896px) {
     
     .messageArea {
     font-family: 'CustomFont';
-    font-size: 200%;
+    font-size: 150%;
     color: #42765c;
     border: none;
     background: none;
@@ -475,7 +475,7 @@ button {
 
     .nameInput{
       font-family: 'CustomFont';
-      font-size: 200%;
+      font-size: 150%;
       color: #42765c;
       border: none;
       background: none;
@@ -486,7 +486,7 @@ button {
       
       .emailInput {
       font-family: 'CustomFont';
-      font-size: 200%;
+      font-size: 150%;
       color: #42765c;
       border: none;
       background: none;
@@ -497,7 +497,7 @@ button {
       
       .messageArea {
       font-family: 'CustomFont';
-      font-size: 200%;
+      font-size: 150%;
       color: #42765c;
       border: none;
       background: none;
@@ -704,8 +704,8 @@ margin-top: -99%;
   }
 
   .loadinggif {
-    margin-left: 38vw;
-    margin-top: 20vw;
+    margin-left: 35vw;
+    margin-top: 10%;
   }
 
   .contactimg {
@@ -754,7 +754,7 @@ margin-top: -99%;
       grid-column: 5/9;
       grid-row: 5/6;
       font-family: 'CustomFont';
-      font-size: 150%;
+      font-size: 200%;
       color: #42765c;
       border: none;
       background: none;
@@ -767,7 +767,7 @@ margin-top: -99%;
       grid-column: 3/10;
       grid-row: 9/13;
       font-family: 'CustomFont';
-      font-size: 150%;
+      font-size: 170%;
       color: #42765c;
       border: none;
       background: none;
@@ -799,7 +799,7 @@ margin-top: -99%;
   grid-row: 6/7;
   margin-top: 5%;
   font-family: 'CustomFont';
-  font-size: 200%;
+  font-size: 150%;
   color: #42765c;
   border: none;
   background: none;

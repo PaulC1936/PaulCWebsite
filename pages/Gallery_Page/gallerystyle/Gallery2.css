@@ -32,8 +32,8 @@
   .loadinggif {
     display: block;
     position: absolute;
-    margin-left: 35vw;
-    margin-top: 55vw;
+    margin-left: 30vw;
+    margin-top: 20%;
     place-items: center;
     max-width: 25vw;
     mix-blend-mode: normal;
@@ -584,8 +584,8 @@ margin-top: -89%;
   }
 
   .loadinggif {
-    margin-left: 38vw;
-    margin-top: 20vw;
+    margin-left: 35vw;
+    margin-top: 10%;
   }
 
   .gallimg {
