@@ -272,6 +272,16 @@ position: absolute;
   padding-top: 5%;
  }
 
+ /*.gallImg video {
+  position: absolute;
+  max-height: auto;
+  max-width: 90vw;
+  align-items: center;
+  padding-top: 30%;
+ }*/
+
+
+
   .container img:hover {
    transform: scale(1.2);
  }
@@ -562,6 +572,14 @@ margin-top: -89%;
   height: auto;
 } 
 
+.gallImg video {
+  position: absolute;
+  max-height: auto;
+  max-width: 90vw;
+  align-items: center;
+  padding-top: 30%;
+ }
+
 .end {
   display: block;
 }
@@ -607,4 +625,12 @@ margin-top: -89%;
   .gallImg img {
     margin-top: 0%;
   }
+  .gallImg video {
+    position: absolute;
+    max-width: 40vw;
+    text-align: center;
+    padding-top: 10%;
+   }
 }
+
+
